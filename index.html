@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Valentín App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="screen1" class="screen">
+        <img src="gif1.gif" alt="GIF de San Valentín" class="gif">
+        <h1>¿Quieres ser mi San Valentín?</h1>
+        <div class="buttons">
+            <button id="yesButton">Sí</button>
+            <button id="noButton">No</button>
+        </div>
+    </div>
+
+    <div id="screen2" class="screen hidden">
+        <h1>Sabía que dirías que sí</h1>
+        <img src="gif2.gif" alt="GIF de celebración" class="gif">
+    </div>
+
+    <audio id="backgroundMusic" loop>
+        <source src="cancion.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
